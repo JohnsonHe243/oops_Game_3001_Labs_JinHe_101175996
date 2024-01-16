@@ -61,6 +61,7 @@
     <Compile Include="Assets\_MyAssets\_Scripts\SceneChangeButton.cs" />
     <Compile Include="Assets\_MyAssets\_Scripts\SceneLoader.cs" />
     <Compile Include="Assets\_MyAssets\_Scripts\AgentMovement.cs" />
+    <Compile Include="Assets\_MyAssets\_Scripts\ClickDragScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
