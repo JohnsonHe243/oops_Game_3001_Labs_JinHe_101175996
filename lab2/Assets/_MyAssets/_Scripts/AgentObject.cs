@@ -15,7 +15,7 @@ public class AgentObject : MonoBehaviour // Parent object
     // Note I only want the above property so the class cannot be abstract
 
     // Start is called before the first frame update
-    void Start()
+    public void Start()
     {
         Debug.Log("Starting Agent...");
         TargetPosition = m_target.position;
