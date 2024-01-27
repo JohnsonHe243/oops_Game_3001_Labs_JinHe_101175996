@@ -7,7 +7,7 @@ public class StarShip : AgentObject
     // Start is called before the first frame update
     [SerializeField] float movementSpeed = 1.0f;
 
-    [SerializeField] float rotationSpeed = 15;    
+    [SerializeField] float rotationSpeed = 155.0f;    
     Rigidbody2D rb;
 
 
@@ -49,7 +49,7 @@ public class StarShip : AgentObject
         Vector2 directionToTarget = (TargetPosition - transform.position).normalized;
 
         // Calculate the angle to rotate towards the target.
-        float targetAngle = Mathf.Atan2(directionToTarget.x, directionToTarget.y) * Mathf.Rad2Deg+60.0f;
+        float targetAngle = Mathf.Atan2(directionToTarget.x, directionToTarget.y) * Mathf.Rad2Deg+90.0f;
 
         // Smoothly rotate towards the target.
         float angleDifference = Mathf.DeltaAngle(targetAngle, transform.eulerAngles.z); // Delta angle from target to ship.
